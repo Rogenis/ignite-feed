@@ -1,0 +1,10 @@
+.wrapper {
+  max-width: 70rem; /* Limitar o tamanho do conteúdo */
+  margin: 2rem auto; 
+  padding: 0 1rem; /* Não ficar colado na borda */
+
+  display: grid;
+  grid-template-columns: 256px 1fr; /* 1fr = 1 fraction - Dividir o espaço restante */
+  gap: 2rem;
+  align-items: flex-start; /* Alinhar os itens no topo */
+}
